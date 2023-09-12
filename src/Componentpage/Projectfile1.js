@@ -2,47 +2,66 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import "../Componentpage/Projectfile1style.css";
-import todolist from "../assets/todolist.jpg"
-import calc from "../assets/calculator.jpg"
-import portfolio from "../assets/portfolio.jpg"
-import "./Projectfile1style.css"
+import todolist from "../assets/todolist.jpg";
+import calc from "../assets/calculator.jpg";
+import portfolio from "../assets/portfolio.jpg";
+import "./Projectfile1style.css";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container";
 
 const Projectfile1 = () => {
   return (
-    <div className=" container-fluid projectfile1 ">
-      <div className="row">
-        <div className="col-lg-4">
+    <Container>
+      <Row>
+        <Col>
           <Card>
-            <Card.Img variant="top" src={todolist}  width='100%' height='100%'/>
+            <Card.Img variant="top" src={todolist} width="100%" height="100%" />
             <Card.Body className="">
               <Card.Title>TODO LIST</Card.Title>
               <Card.Text>Used CRUD operation,LocalStorage</Card.Text>
-              <Button variant="primary">See in Detail</Button>
+
+              <a className="text-primary" href="github.com/arti-jansari">
+                See in Detail
+              </a>
             </Card.Body>
           </Card>
-        </div>
-        <div className="col-lg-4">
+        </Col>
+        <Col>
           <Card>
-            <Card.Img variant="top" src={calc}  />
-            <Card.Body>
+            <Card.Img variant="top" src={calc} width="100%" height="100%" />
+            <Card.Body className="">
               <Card.Title>CALCULATOR</Card.Title>
               <Card.Text>Using React js</Card.Text>
-              <Button variant="primary">See in Detail</Button>
+
+              <a className="text-light" href="github.com/arti-jansari">
+                {" "}
+                See in Detail
+              </a>
             </Card.Body>
           </Card>
-        </div>
-        <div className="col-lg-4">
+        </Col>
+        <Col>
           <Card>
-            <Card.Img variant="top" src={portfolio} />
-            <Card.Body>
-              <Card.Title>Portfolio</Card.Title>
-              <Card.Text>Using react</Card.Text>
-              <Button variant="primary">See in Detail</Button>
+            <Card.Img
+              variant="top"
+              src={portfolio}
+              width="100%"
+              height="100%"
+            />
+            <Card.Body className="">
+              <Card.Title>PORTFOLIO</Card.Title>
+              <Card.Text>Using React js</Card.Text>
+
+              <a className="text-light" href="github.com/arti-jansari">
+                {" "}
+                See in Detail
+              </a>
             </Card.Body>
           </Card>
-        </div>
-      </div>
-    </div>
+        </Col>
+      </Row>
+    </Container>
   );
 };
 

@@ -22,22 +22,8 @@ const Imagefile = () => {
                   Hi! I am Arti Jansari
                 </Card.Title>
                 <Card.Text className="fs-1 fw-semibold text-light ">
-                  React Developer
+                  React js Developer
                 </Card.Text>
-                <div>
-                  <Link
-                    to="/Projects"
-                    className="btn btn-warning mx-3 fw-semibold "
-                  >
-                    PROJECT
-                  </Link>
-                  <Link
-                    to="/Projects"
-                    className="btn btn-outline-light text-light fw-semibold"
-                  >
-                    CONTACT
-                  </Link>
-                </div>
               </Card.Body>
             </Card>
           </div>
