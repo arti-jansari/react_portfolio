@@ -21,7 +21,7 @@ const Projectfile1 = () => {
               <Card.Title>TODO LIST</Card.Title>
               <Card.Text>Used CRUD operation,LocalStorage</Card.Text>
 
-              <a className="text-primary" href="github.com/arti-jansari">
+              <a className="text-primary" href="https://javascript-project-master-ge6o.vercel.app/">
                 See in Detail
               </a>
             </Card.Body>
@@ -34,7 +34,7 @@ const Projectfile1 = () => {
               <Card.Title>CALCULATOR</Card.Title>
               <Card.Text>Using React js</Card.Text>
 
-              <a className="text-light" href="github.com/arti-jansari">
+              <a className="text-light" href="https://javascript-project-master-ge6o.vercel.app/">
                 {" "}
                 See in Detail
               </a>
@@ -53,7 +53,7 @@ const Projectfile1 = () => {
               <Card.Title>PORTFOLIO</Card.Title>
               <Card.Text>Using React js</Card.Text>
 
-              <a className="text-light" href="github.com/arti-jansari">
+              <a className="text-light" href="https://javascript-project-master-ge6o.vercel.app/">
                 {" "}
                 See in Detail
               </a>
@@ -61,6 +61,9 @@ const Projectfile1 = () => {
           </Card>
         </Col>
       </Row>
+      <div>
+        
+      </div>
     </Container>
   );
 };
