@@ -19,7 +19,12 @@ const Imagefile = () => {
             <Card className="text-center position-absolute top-50 start-50 translate-middle bg-transparent">
               <Card.Body>
                 <Card.Title className="fs-2 fw-normal">
-                  Hi! I am Arti Jansari
+                <h2 class="title">
+    <span class="title-word title-word-1">This</span>
+    <span class="title-word title-word-2">is</span>
+    <span class="title-word title-word-3">my</span>
+    <span class="title-word title-word-4">text</span>
+  </h2>
                 </Card.Title>
                 <Card.Text className="fs-1 fw-semibold text-light ">
                   React js Developer
